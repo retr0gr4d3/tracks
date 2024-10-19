@@ -1,37 +1,30 @@
 # blendOS Tracks
 
-* GNOME: `gnome` / `default-gnome`
-* WIP
+* GNOME: `gnome`
+* COSMIC: `cosmic`
 
-**NOTE**: The WIP track is currently unfinished.
+**NOTE**: The COSMIC track is not thoroughly tested. Things may not work for you.
 
-## Example GNOME `/system.yaml` (vanilla)
-
-```
-repo: 'https://pkg-repo.blendos.co/'
-
-impl: 'https://github.com/blend-os/tracks/raw/main'
-
-track: 'gnome'
-```
-
-## Example GNOME `/system.yaml` with Caddy
+## Example COSMIC `/system.yaml` (vanilla)
 
 ```
 repo: 'https://pkg-repo.blendos.co/'
 
-impl: 'https://github.com/blend-os/tracks/raw/main'
+impl: 'https://github.com/retr0gr4d3/tracks/raw/main'
 
-track: 'gnome'
+track: 'cosmic'
+```
+
+## Example COSMIC `/system.yaml` with Nvidia modules
+
+```
+repo: 'https://pkg-repo.blendos.co/'
+
+impl: 'https://github.com/retr0gr4d3/tracks/raw/main'
+
+track: 'cosmic'
 
 packages:
-    - 'micro'
-    - 'caddy'
-
-services:
-    - 'caddy'
-
-package-repos:
-    - name: 'chaotic-aur'
-      repo-url: 'https://cdn-mirror.chaotic.cx/$repo/$arch'
+    - 'nvidia-dkms'
+    - 'nvidia-prime'
 ```

@@ -119,7 +119,6 @@ packages:
   - 'ttf-jetbrains-mono'
 
 services:
-  - 'cups'
   - 'bluetooth'
   - 'NetworkManager'
 
