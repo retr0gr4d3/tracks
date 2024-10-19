@@ -62,11 +62,28 @@ packages:
   - 'gnome-shell-extension-blur-my-shell'
   - 'gnome-shell-extension-appindicator'
   - 'gnome-software'
+  - 'gnome-shell-extension-dash-to-dock'
+  - 'gnome-shell-extension-blur-my-shell'
+  - 'gnome-shell-extension-appindicator'
+  - 'gnome-initial-setup'
+  - 'filesystem-blend'
+  - 'firefox'
+  - 'fprintd'
   - 'waydroid'
   - 'waydroid-image'
 
 services:
   - 'gdm'
+  - 'fprintd'
 
 commands:
   - 'rm -f /usr/share/applications/Waydroid.desktop'
+  - 'find /usr/share/metainfo ! -name "org.freedesktop.appstream.cli.metainfo.xml" ! -name "org.freedesktop.appstream.compose.metainfo.xml" ! -name "org.gnome.Software.Plugin.Flatpak.metainfo.xml" ! -name "org.gnome.Software.Plugin.Fwupd.metainfo.xml"  -type f -exec rm -f {} +'
+  - 'rm -f /usr/share/applications/stoken-gui.desktop'
+  - 'rm -f /usr/share/applications/stoken-gui-small.desktop'
+  - 'rm -f /usr/share/applications/qvidcap.desktop'
+  - 'rm -f /usr/share/applications/qv4l2.desktop'
+  - 'rm -f /usr/share/applications/bvnc.desktop'
+  - 'rm -f /usr/share/applications/electron*.desktop'
+  - 'rm -f /usr/share/applications/avahi-discover.desktop'
+  - 'rm -f /usr/share/applications/bssh.desktop'
