@@ -1,0 +1,15 @@
+impl: 'https://github.com/retr0gr4d3/tracks/raw/main'
+
+track: 'cosmic'
+
+packages:
+  - 'firefox'
+  - 'steam'
+  
+aur-packages:
+  - 'vesktop'
+
+services:
+
+commands:
+  - 'rm -f /usr/share/applications/Waydroid.desktop'

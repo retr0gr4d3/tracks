@@ -25,7 +25,6 @@ packages:
   - 'cosmic-wallpapers'
   - 'cosmic-workspaces'
   - 'xdg-desktop-portal-cosmic'
-  - 'firefox'
   - 'waydroid'
   - 'waydroid-image'
 
