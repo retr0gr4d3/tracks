@@ -1,11 +1,9 @@
 # blendOS Tracks
 
-* GNOME: `gnome`
-* Plasma: `plasma`
-* Cinnamon: `cinnamon`
-* LXQT: `lxqt`
-* MATE: `mate`
-* XFCE: `xfce`
+* GNOME: `gnome` / `default-gnome`
+* WIP
+
+**NOTE**: The WIP track is currently unfinished.
 
 ## Example GNOME `/system.yaml` (vanilla)
 
