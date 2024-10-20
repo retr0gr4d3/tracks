@@ -25,10 +25,17 @@ packages:
   - 'cosmic-wallpapers'
   - 'cosmic-workspaces'
   - 'xdg-desktop-portal-cosmic'
+  - 'cosmic'
+  - 'pipewire-audio'
+  - 'pipewire-alsa'
+  - 'pipewire-pulse'
+  - 'power-profiles-daemon'
   - 'waydroid'
   - 'waydroid-image'
 
 services:
-
+  - 'cosmic-greeter'
+  - 'pipewire-pulse.socket'
+  
 commands:
   - 'rm -f /usr/share/applications/Waydroid.desktop'
