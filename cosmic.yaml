@@ -29,7 +29,6 @@ packages:
   - 'waydroid-image'
 
 services:
-  - 'cosmic-greeter'
 
 commands:
   - 'rm -f /usr/share/applications/Waydroid.desktop'
