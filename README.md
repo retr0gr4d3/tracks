@@ -27,5 +27,4 @@ track: 'cosmic'
 packages:
     - 'nvidia-open'
     - 'nvidia-open-dkms'
-    - 'nvidia-prime'
 ```
