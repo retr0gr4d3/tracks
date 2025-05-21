@@ -25,6 +25,7 @@ impl: 'https://github.com/retr0gr4d3/tracks/raw/main'
 track: 'cosmic'
 
 packages:
-    - 'nvidia-dkms'
+    - 'nvidia-open'
+    - 'nvidia-open-dkms'
     - 'nvidia-prime'
 ```
