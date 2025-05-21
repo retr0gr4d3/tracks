@@ -26,6 +26,7 @@ packages:
   - 'cosmic-workspaces'
   - 'xdg-desktop-portal-cosmic'
   - 'cosmic'
+  - 'filesystem-blend'
   - 'pipewire-audio'
   - 'pipewire-alsa'
   - 'pipewire-pulse'
