@@ -1,0 +1,26 @@
+impl: 'https://github.com/retr0gr4d3/tracks/raw/main'
+
+track: 'blendos-base'
+
+packages:
+  - 'libva-nvidia-driver'
+  - 'egl-wayland'
+  - 'xorg-wayland'
+  - 'wayland-protocols'
+  - 'filesystem-blend'
+  - 'pipewire'
+  - 'wireplumber'
+  - 'pipewire-audio'
+  - 'pipewire-pulse'
+  - 'pipewire-alsa'
+  - 'waydroid'
+  - 'waydroid-image'
+
+aur-packages:
+  - 'aur/hyprland-git'
+
+services:
+  - 'pipewire-pulse.socket'
+  
+commands:
+  - 'rm -f /usr/share/applications/Waydroid.desktop'
