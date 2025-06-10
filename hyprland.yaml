@@ -17,9 +17,7 @@ packages:
   - 'pipewire-alsa'
   - 'waydroid'
   - 'waydroid-image'
-
-aur-packages:
-  - 'aur/hyprland-git'
+  - 'hyprland'
 
 services:
   - 'lemurs'
