@@ -3,6 +3,7 @@ impl: 'https://github.com/retr0gr4d3/tracks/raw/main'
 track: 'blendos-base'
 
 packages:
+  - 'kitty'
   - 'lemurs'
   - 'libva-nvidia-driver'
   - 'egl-wayland'
