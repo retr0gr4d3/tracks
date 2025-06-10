@@ -5,7 +5,7 @@ track: 'blendos-base'
 packages:
   - 'libva-nvidia-driver'
   - 'egl-wayland'
-  - 'xorg-wayland'
+  - 'xorg-xwayland'
   - 'wayland-protocols'
   - 'filesystem-blend'
   - 'pipewire'
