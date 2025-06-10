@@ -4,7 +4,7 @@ track: 'blendos-base'
 
 packages:
   - 'kitty'
-  - 'gdm'
+  - 'lemurs'
   - 'libva-nvidia-driver'
   - 'egl-wayland'
   - 'xorg-xwayland'
@@ -20,7 +20,7 @@ packages:
   - 'hyprland'
 
 services:
-  - 'gdm'
+  - 'lemurs'
   - 'pipewire-pulse.socket'
   
 commands:
