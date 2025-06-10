@@ -3,6 +3,7 @@ impl: 'https://github.com/retr0gr4d3/tracks/raw/main'
 track: 'blendos-base'
 
 packages:
+  - 'lemurs'
   - 'libva-nvidia-driver'
   - 'egl-wayland'
   - 'xorg-xwayland'
@@ -20,6 +21,7 @@ aur-packages:
   - 'aur/hyprland-git'
 
 services:
+  - 'lemurs'
   - 'pipewire-pulse.socket'
   
 commands:
