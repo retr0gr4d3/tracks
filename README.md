@@ -2,7 +2,7 @@
 
 * GNOME: `gnome` - Useful for recovery when experimenting with the Cosmic branch.
 * COSMIC: `cosmic`
-* HYPRLAND: `hyperland`
+* HYPRLAND: `hyprland`
 
 **NOTE**: The COSMIC track is not thoroughly tested. Cosmic Epoch is a work-in-progress desktop environment by System76, so bugs you encounter are probably a result of their development cycle. It worked for me, it may not work for you. If you encounter any bugs, let them know, and help them out.
 
